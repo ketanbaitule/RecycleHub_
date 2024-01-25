@@ -6,9 +6,6 @@ import AddPost from "../components/AddPost";
 
 // username, designation, content
 
-
-
-
 export default function Discover() {
     const newPost = useDisclosure();
     let userData = [
