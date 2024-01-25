@@ -24,63 +24,50 @@ export default function SignUpForm() {
 
 
     return (
-        <>
-            { signUpStatus ? 
-                <Alert status='success' className="mb-3">
-                    <AlertIcon />
-                    Your Account Has Been Created!!
-                </Alert>: ''
-            }
-            <form onSubmit={handleSubmit(createUser)}>
-                <FormControl>
-                    <FormLabel>Name</FormLabel>
-                    <Stack spacing={4}>
-                        <InputGroup>
-                            <InputLeftElement pointerEvents="none" >
-                                <Icon as={BsPersonFill} />
-                            </InputLeftElement>
-                            <Input type="name" placeholder={"Ketan Baitule"}  {...register("name")} />
-                        </InputGroup>
-                    </Stack>
-                    <br />
-                    <FormLabel>Email</FormLabel>
-                    <Stack spacing={4}>
-                        <InputGroup>
-                            <InputLeftElement pointerEvents="none" >
-                                <Icon as={MdEmail} />
-                            </InputLeftElement>
-                            <Input type="email" placeholder={"whoami@xyz.com"} {...register("email")} />
-                        </InputGroup>
-                    </Stack>
-                    <FormHelperText>We will never share your email.</FormHelperText>
+        <FormControl>
+            <FormLabel>Name</FormLabel>
+            <Stack spacing={4}>
+                <InputGroup>
+                    <InputLeftElement pointerEvents="none" >
+                        <Icon as={BsPersonFill} />
+                    </InputLeftElement>
+                    <Input type="name" placeholder={"Ketan Baitule"} />
+                </InputGroup>
+            </Stack>
+            <br />
+            <FormLabel>Email</FormLabel>
+            <Stack spacing={4}>
+                <InputGroup>
+                    <InputLeftElement pointerEvents="none" >
+                        <Icon as={MdEmail} />
+                    </InputLeftElement>
+                    <Input type="email" placeholder={"whoami@xyz.com"} />
+                </InputGroup>
+            </Stack>
+            <FormHelperText>We will never share your email.</FormHelperText>
 
+            <br />
+                
+            <FormLabel>Password</FormLabel>
+            <Stack spacing={4}>
+                <InputGroup>
+                    <InputLeftElement pointerEvents="none" >
+                        <Icon as={BsKeyFill} />
+                    </InputLeftElement>
+                    <Input type="text" placeholder="Password" />
+                </InputGroup>
+            </Stack>
+            <br />
+            <FormLabel>Confirm Password</FormLabel>
+            <Stack spacing={4}>
+                <InputGroup>
+                    <InputLeftElement pointerEvents="none" >
+                        <Icon as={BsKeyFill} />
+                    </InputLeftElement>
+                    <Input type="text" placeholder="Confirm password" />
                     <br />
-                        
-                    <FormLabel>Password</FormLabel>
-                    <Stack spacing={4}>
-                        <InputGroup>
-                            <InputLeftElement pointerEvents="none" >
-                                <Icon as={BsKeyFill} />
-                            </InputLeftElement>
-                            <Input type="text" placeholder="Password" {...register("password")} />
-                        </InputGroup>
-                    </Stack>
-                    <br />
-                    <FormLabel>Confirm Password</FormLabel>
-                    <Stack spacing={4}>
-                        <InputGroup>
-                            <InputLeftElement pointerEvents="none" >
-                                <Icon as={BsKeyFill} />
-                            </InputLeftElement>
-                            <Input type="text" placeholder="Confirm password"  {...register("confirm_password")} />
-                            <br />
-                        </InputGroup>
-                    </Stack>
-                    <br />
-                    <Button colorScheme="teal" type={"submit"} className="mb-3">Sign Up</Button>
-                    <br />
-                </FormControl>
-            </form>
-        </>
+                </InputGroup>
+            </Stack>
+        </FormControl>
     )
 }
