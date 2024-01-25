@@ -10,7 +10,7 @@ import {
   } from '@chakra-ui/react'
 
 
-import LoginForm from './login/LoginForm'
+import LoginForm from './LoginForm'
 
 
 export default function Login({ isOpen, onClose , children , button , heading }) {

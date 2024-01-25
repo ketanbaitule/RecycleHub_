@@ -1,7 +1,7 @@
 import { Box, Button, ButtonGroup, Flex, Heading, Link, Spacer, useDisclosure } from "@chakra-ui/react";
 import NextLink from "next/link";
 import Modal from "@/components/Modal";
-import LoginForm from "./login/LoginForm";
+import LoginForm from "./LoginForm";
 
 function Navbar(){
     const { isOpen, onOpen, onClose } = useDisclosure()
