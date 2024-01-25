@@ -1,5 +1,6 @@
 import PostCard from "@/components/PostCard";
-import { Flex } from '@chakra-ui/react';
+import { Flex, Heading, Highlight } from '@chakra-ui/react';
+import { BiHeading } from "react-icons/bi";
 // username, designation, content
 
 export default function Discover() {
@@ -24,12 +25,22 @@ export default function Discover() {
 
     return (
         <>
+        <Heading lineHeight='tall' size="2xl">
+            <Highlight
+                query={['Discover']}
+                styles={{ px: '2', py: '1',  bg: 'teal.200' }}
+            >
+                Welcome to the Discover Page!
+            </Highlight>
+        </Heading>        
+        <Heading size="sm" padding={3} >Here you can see all the wonderful contributions people around the world are making towards a sustainable future.</Heading>
+        <br />
         <Flex flexDirection={"column"} alignItems={"center"} gap={5}>
             {
                 userData.map((user) => {
                     console.log(user.username);
                     return(
-                    <PostCard username={user.username} designation={user.designation} content={user.content} />
+                    <PostCard username={user.username} designation={user.designation} content={user.content} key={user.username} />
                     )
                 })
             }

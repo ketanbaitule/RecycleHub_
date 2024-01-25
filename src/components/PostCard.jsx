@@ -8,7 +8,7 @@ export default function PostCard({ username, designation, content }) {
             <CardHeader>
                 <Flex spacing='4'>
                     <Flex flex='1' gap='4' alignItems='center' flexWrap='wrap'>
-                        <Avatar name='Segun Adebayo' src='https://bit.ly/sage-adebayo' />
+                        <Avatar name='User' src='https://avatars.githubusercontent.com/u/120776034?v=4' />
 
                         <Box>
                             <Heading size='sm'>{username}</Heading>
@@ -23,7 +23,7 @@ export default function PostCard({ username, designation, content }) {
                         />
                 </Flex>
             </CardHeader>
-            <CardBody>
+            <CardBody pt={0}>
                 <Text>
                     {content}
                 </Text>
