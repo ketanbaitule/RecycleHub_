@@ -28,7 +28,7 @@ export default function Discover() {
         <Heading lineHeight='tall' size="2xl">
             <Highlight
                 query={['Discover']}
-                styles={{ px: '2', py: '1',  bg: 'teal.200' }}
+                styles={{ px: '2', py: '0',  bg: 'teal.200' }}
             >
                 Welcome to the Discover Page!
             </Highlight>
