@@ -51,7 +51,6 @@ export default function Discover() {
                 })
             }
         </Flex>
-
         {/* adding the floating button for new PostCard */}
         <Box className="fixed bottom-5 right-5">
             <Button bg="teal.200" isRound="true" variant='ghost' leftIcon={<BiAddToQueue />}  size="lg" maxWidth={"inherit"} onClick={newPost.onOpen}/>

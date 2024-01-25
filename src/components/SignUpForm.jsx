@@ -1,8 +1,28 @@
 import { FormControl, FormLabel, Stack, Input, InputGroup, InputLeftElement, Icon, FormHelperText } from "@chakra-ui/react";
 import { BsKeyFill, BsPersonFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
+import { useForm } from "react-hook-form";
+import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
+import { createClient } from '@supabase/supabase-js'
+const supabase = createClient('https://ogunnrbrzfnivuooexda.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9ndW5ucmJyemZuaXZ1b29leGRhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDYyMTU1ODksImV4cCI6MjAyMTc5MTU4OX0.1GwegW7EtZ4QY_A-1uycvFbAeUuvSyT4-y7No60z3T0');
 
 export default function SignUpForm() {
+    const [ signUpStatus, setSignUpStatus ] = useState(false)
+
+    const { register, handleSubmit} = useForm();
+
+    function createUser(e){
+        supabase.auth.signUp({
+            name: e.name,
+            email: e.email,
+            password: e.password
+        }).then((data)=>{
+            setSignUpStatus(true);
+            console.log(data);
+        })
+    }
+
+
     return (
         <FormControl>
             <FormLabel>Name</FormLabel>
