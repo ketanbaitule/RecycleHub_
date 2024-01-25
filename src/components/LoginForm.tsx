@@ -14,7 +14,7 @@ export default function LoginForm() {
                     <Input type="email" placeholder="whoami@xyz.com" />
                 </InputGroup>
             </Stack>
-            <FormHelperText>We"ll never share your email.</FormHelperText>
+            <FormHelperText>We will never share your email.</FormHelperText>
 
             <br />
                 
