@@ -4,8 +4,6 @@ import { MdEmail } from "react-icons/md";
 import { supabase } from "@/model/supabase";
 
 export default function LoginForm() {
-    const auth = getAuth();
-    createUserWithEmailAndPassword(auth, email, password)
     return (
         <FormControl>
             <FormLabel>Email</FormLabel>

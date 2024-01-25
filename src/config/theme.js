@@ -3,9 +3,11 @@
 
 // // Extend the default theme with your custom colors
 // const theme = extendTheme({
-//   colors: {
-//     recyclehub: "00F900"
-//   },
-// });
+//     colors: {
+//       brand: {
+//         green: "#00f900",
+//       },
+//     },
+//   })
 
 // export default theme;
