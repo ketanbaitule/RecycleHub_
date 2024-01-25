@@ -1,8 +1,9 @@
-import { Box, Button, ButtonGroup, Flex, Heading, Link, Spacer, useDisclosure } from "@chakra-ui/react";
+import { Box, Button, ButtonGroup, Flex, Heading, Link, Spacer, useDisclosure, Image } from "@chakra-ui/react";
 import NextLink from "next/link";
 import Modal from "@/components/Modal";
 import LoginForm from "./LoginForm";
 import SignUpForm from "./SignUpForm";
+import Logo from '@/images/logo.png';
 
 function Navbar(){
     const login = useDisclosure();
@@ -13,7 +14,14 @@ function Navbar(){
         <Flex flexDirection={{base: "column", md: "row"}} minWidth="max-content" alignItems="center" gap="2" padding={[2, 3]} className="border-b border-slate-200">
             <Box p="2">
                 <NextLink href="/">
-                    <Heading size="md">RecycleHub</Heading>
+                    {/* <Heading size="md">RecycleHub</Heading> */}
+                    
+                        <Image 
+                            maxHeight={"50px"}
+                            objectFit='cover'
+                            src={Logo.src} 
+                        />
+                    
                 </NextLink>
             </Box>
             <Spacer display={{base: "none", md: "block"}} />
