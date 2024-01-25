@@ -1,7 +1,7 @@
 import * as React from 'react'
 
 // 1. import `ChakraProvider` component
-import { Button, ChakraProvider, Heading, Link, VStack, Wrap, WrapItem, chakra } from '@chakra-ui/react'
+import { Button, ChakraProvider, Heading, Link, Stat, StatHelpText, StatLabel, StatNumber, VStack, Wrap, WrapItem, chakra } from '@chakra-ui/react'
 import { CloseButton } from '@chakra-ui/react'
 import { Center, Square, Circle } from '@chakra-ui/react'
 import { Avatar, AvatarBadge, AvatarGroup } from '@chakra-ui/react'
@@ -70,7 +70,11 @@ export default function ProfilePage() {
                 <button>Settings</button>
             </Link>
         <Text>{user.location}</Text>
-        <Text>{user.Points}</Text>
+        <Stat>
+  <StatLabel>Points Earned</StatLabel>
+  <Center><StatNumber>69</StatNumber></Center>
+  <StatHelpText>Feb 12 - Feb 28</StatHelpText>
+</Stat>
         <Button colorScheme="teal" variant="outline" onClick={handleLogout}>
           Logout
         </Button>
