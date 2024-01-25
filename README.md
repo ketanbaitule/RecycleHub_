@@ -1,52 +1,79 @@
-# **Hazardous Waste Management System**
+# Hazardous Waste Management System
 
-- LinkedIn For Recylicing Hazardious Waste 
-- Users:
-	- Waste producer / Citizens
-	- Collectors
-	- **Re**-Processors (eg. Shredder for Plastics, ) Industries / Startups (Saste me material) - marketplace for them
-- Features
-	- Works on prev. Infrastructure Connects Recyclers to Citizens 
-	- scan a single use product such as engine oil, and see which reprocessing unit can accept it Centralized Map that provides service Reward System
-	- Point System for Collectors, Good Will Scores,
-	- Industies Ecological Contribution
-	- Amazon type market for recycled raw material and products Report Waste Related Problem to Authority
-	- Waste jaha se milta nahi hai waha pe recyle nahi ho raha
-	
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Market Survey](#market-survey)
+    1. [Recycling Printer Cartridges](#recycling-printer-cartridges)
+    2. [Garage Oils](#garage-oils)
+    3. [Used Oil Management in India](#used-oil-management-in-india)
+    4. [e-Waste in India](#e-waste-in-india)
+3. [Problem Statement](#problem-statement)
+4. [Proposed Solution](#proposed-solution)
+5. [Future Scope](#future-scope)
+6. [Q&A Session](#qna-session)  
+7. [Articles and PDFs](#articles-and-pdfs)
 
-A. introduction
-B. market survey
-- 	recycling printer catridges - only 20-30% recycled globally ([Research Paper](https://www.researchgate.net/publication/354280541_Challenges_and_Emerging_Trends_in_Toner_Waste_Recycling_A_Review))
-- 	garage oils - The used vehicle oil is being sold to industries as a replacement for high priced furnace oil and light deisel oil. Without reprocessing, it produces air pollution. Garages drain the used oil in the sewers causing great environmental damage. [Research Paper](https://www.researchgate.net/publication/257728896_Spent_Oil_Management_and_its_Recycling_Potential_in_India_Inventory_and_Issues_PROCEDIA_ENVIRONMENTAL_SCIENCES)
-- 	Factors that support re-refining as a more sustainable option for used oil management include contributions to local job creation, regional or national energy security and competition in the lubricating oil market by replacing foreign production increasingly with local production
-- 	Re-refining used oil into base oil (lubricants without additives) has benefits associated with reducing the need to produce base oil from crude oil sources and avoiding emissions associated with used oil disposal.
-- 	The Hazardous Wastes (Management, Handling & Trans boundary Movement) Rules, 2008 finalised the processes that produce HW, wherein spent oil (used and waste oil) has been classified as highly polluting (red category).
-- 	 Extended Producer Responsibility, have been published by the government of India
-- 	 In India, roughly 257 registered spent oil (used/waste oil) recycling facilities are located in 124 districts and 19 states, with a combined capacity of 1.39 MMT.
-- 	 e-Waste India [Research Paper](https://www.researchgate.net/publication/340427712_Current_state_of_e-waste_management_in_India)
-  
-C. problem statement 
-D. proposed solution 
-- we are providing a clear and established pathway for the collection and re-processing of unconventional hazardous wastes (like oils, batteries, etc) and creating a streamlined process. 
-* * *
+---
 
+## 1. Introduction
 
-D. future scope 
+The Hazardous Waste Management System aims to revolutionize the collection and re-processing of unconventional hazardous wastes, such as oils, batteries, etc. The system creates a streamlined process to address environmental concerns and promote sustainable waste management practices.
 
-E. qna session.
-- How are we different from kabadi walas?
-	- Connects used product of company to company's hired recycling unit.
-	- Improve categorization of product 
-- There are normal recycling centers? 
-	- no. if you google recycling centers near me, then only 3-4 locations spread out turn up. googling is fastest way to communicate, hence we use that to explain our solution.
+---
 
-Articles and pdfs read: 
-1. https://timesofindia.indiatimes.com/city/bengaluru/used-engine-oil-makes-its-way-to-industries-as-fuel-pollutes-air/articleshow/57050922.cms
-2. https://home.iitk.ac.in/~anubha/H16.pdf
-3. https://www.digitalrefining.com/article/1003031/used-lubricating-oil-in-india-treasure-or-trash-ri-202
-4. https://moef.gov.in/wp-content/uploads/2020/06/Final-Uniform-Framework-on-EPR-June2020-for-comments.pdf
-5. https://www.shaktiplasticinds.com/myths-and-facts-about-extended-producer-responsibility-in-india/
-6. https://www.researchgate.net/publication/347282787_Hazardous_Waste_Management
-7. https://www.cartridgeworld.com.au/blog/everything-you-need-to-know-about-recycling-printer-cartridges#:~:text=Residual%20toner%20is%20mixed%20with,make%20fences%20and%20furniture%20items.
-8. https://www.epa.gov/recycle/managing-reusing-and-recycling-used-oil#:~:text=Used%20oil%20can%20be%20re,can%20reuse%20as%20scrap%20feed.
-9. https://www.orientjchem.org/vol33no6/chemistry-and-recycling-technology-of-used-motor-oil/
+## 2. Market Survey
+
+### 2.1 Recycling Printer Cartridges
+- Only 20-30% of printer cartridges are recycled globally. This inefficiency poses a significant challenge to sustainable waste management. [Research Paper](https://www.researchgate.net/publication/354280541_Challenges_and_Emerging_Trends_in_Toner_Waste_Recycling_A_Review)
+
+### 2.2 Garage Oils
+- The used vehicle oil is being sold to industries as a replacement for high-priced furnace oil, causing air pollution. Garages draining used oil into sewers also contribute to environmental damage. [Research Paper](https://www.researchgate.net/publication/257728896_Spent_Oil_Management_and_its_Recycling_Potential_in_India_Inventory_and_Issues_PROCEDIA_ENVIRONMENTAL_SCIENCES)
+
+### 2.3 Used Oil Management in India
+- Factors supporting re-refining as a sustainable option for used oil management, including job creation, energy security, and local production. The Hazardous Wastes (Management, Handling & Transboundary Movement) Rules, 2008 classify spent oil as highly polluting. Extended Producer Responsibility guidelines by the government of India. Approximately 257 registered spent oil recycling facilities in India. [Research Paper](https://www.researchgate.net/publication/340427712_Current_state_of_e-waste_management_in_India)
+
+### 2.4 e-Waste in India
+- An overview of the current state of e-waste management in India. [Research Paper](https://www.researchgate.net/publication/340427712_Current_state_of_e-waste_management_in_India)
+
+---
+
+## 3. Problem Statement
+
+The current state of hazardous waste management poses several challenges, including inadequate recycling of printer cartridges, improper disposal of garage oils, and the need for a more efficient system to manage used oil in India. The Hazardous Wastes Rules classify spent oil as highly polluting, highlighting the urgency for an effective solution.
+
+---
+
+## 4. Proposed Solution
+
+We propose a comprehensive solution that establishes a clear pathway for the collection and re-processing of unconventional hazardous wastes. This includes oils, batteries, and other materials, creating a streamlined process to ensure proper disposal and recycling. The system aims to bridge the gap in existing waste management infrastructure and promote a more sustainable approach.
+
+---
+
+## 5. Future Scope
+
+The Hazardous Waste Management System has vast potential for future enhancements and expansions. Potential areas of growth include incorporating new types of hazardous waste, expanding the network of recycling facilities, and integrating advanced technologies for more efficient waste tracking and management.
+
+---
+
+## 6. Q&A Session
+
+### 6.1 How are we different from kabadi walas?
+- Our system connects used products directly to the company's designated recycling units, ensuring a more structured and accountable recycling process.
+- Improving categorization of products allows for a more precise and effective recycling approach.
+
+### 6.2 Are there normal recycling centers?
+- No, there are limited recycling centers available. A quick Google search for "recycling centers near me" typically yields only 3-4 locations, spread out across the region. Our solution utilizes the speed and convenience of online communication to address this scarcity.
+
+---
+
+## 7. Articles and PDFs
+
+1. [Used Engine Oil Makes Its Way to Industries as Fuel, Pollutes Air](https://timesofindia.indiatimes.com/city/bengaluru/used-engine-oil-makes-its-way-to-industries-as-fuel-pollutes-air/articleshow/57050922.cms)
+2. [Research Paper on Toner Waste Recycling](https://home.iitk.ac.in/~anubha/H16.pdf)
+3. [Used Lubricating Oil in India: Treasure or Trash?](https://www.digitalrefining.com/article/1003031/used-lubricating-oil-in-india-treasure-or-trash-ri-202)
+4. [Uniform Framework on Extended Producer Responsibility by Government of India](https://moef.gov.in/wp-content/uploads/2020/06/Final-Uniform-Framework-on-EPR-June2020-for-comments.pdf)
+5. [Myths and Facts about Extended Producer Responsibility in India](https://www.shaktiplasticinds.com/myths-and-facts-about-extended-producer-responsibility-in-india/)
+6. [Hazardous Waste Management](https://www.researchgate.net/publication/347282787_Hazardous_Waste_Management)
+7. [Everything You Need to Know About Recycling Printer Cartridges](https://www.cartridgeworld.com.au/blog/everything-you-need-to-know-about-recycling-printer-cartridges#:~:text=Residual%20toner%20is%20mixed%20with,make%20fences%20and%20furniture%20items.)
+8. [Managing, Reusing, and Recycling Used Oil](https://www.epa.gov/recycle/managing-reusing-and-recycling-used-oil#:~:text=Used%20oil%20can%20be%20re,can%20reuse%20as%20scrap%20feed.)
+9. [Chemistry and Recycling Technology of Used Motor Oil](https://www.orientjchem.org/vol33no6/chemistry-and-recycling-technology-of-used-motor-oil/)
