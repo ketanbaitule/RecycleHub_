@@ -7,10 +7,7 @@ import {
     ModalContent,
     ModalFooter,
     ModalHeader
-  } from '@chakra-ui/react'
-
-
-import LoginForm from './LoginForm'
+  } from "@chakra-ui/react"
 
 
 export default function Login({ isOpen, onClose , children , button , heading }) {

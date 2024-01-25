@@ -1,8 +1,8 @@
-import { Button, FormControl, FormHelperText, FormLabel, Icon, Input, InputGroup, InputLeftElement, Stack } from "@chakra-ui/react";
+import { FormControl, FormLabel, Stack, Input, InputGroup, InputLeftElement, Icon, FormHelperText } from "@chakra-ui/react";
 import { BsKeyFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 
-export default function LoginForm() {
+export default function SignUpForm() {
     return (
         <FormControl>
             <FormLabel>Email</FormLabel>
@@ -11,7 +11,7 @@ export default function LoginForm() {
                     <InputLeftElement pointerEvents="none" >
                         <Icon as={MdEmail} />
                     </InputLeftElement>
-                    <Input type="email" placeholder="whoami@xyz.com" />
+                    <Input type="email" placeholder={"whoami@xyz.com"} />
                 </InputGroup>
             </Stack>
             <FormHelperText>We"ll never share your email.</FormHelperText>
