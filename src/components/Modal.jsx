@@ -10,7 +10,7 @@ import {
   } from "@chakra-ui/react"
 
 
-export default function Login({ isOpen, onClose , children , button , heading }) {
+export default function Login({ isOpen, onClose , children , heading }) {
 
 
 return (
@@ -24,13 +24,6 @@ return (
                 <ModalBody>
                     {children}
                 </ModalBody>
-
-                <ModalFooter>
-                    <Button mr={3} onClick={onClose}>
-                    Close
-                    </Button>
-                    {button}
-                </ModalFooter>
                 </ModalContent>
             </Modal>
     </>

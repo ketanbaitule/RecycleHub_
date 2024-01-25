@@ -1,6 +1,7 @@
 import { Button, FormControl, FormHelperText, FormLabel, Icon, Input, InputGroup, InputLeftElement, Stack } from "@chakra-ui/react";
 import { BsKeyFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
+import { supabase } from "@/model/supabase";
 
 export default function LoginForm() {
     return (

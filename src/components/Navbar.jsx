@@ -30,14 +30,10 @@ function Navbar(){
                 <Button colorScheme="teal" onClick={login.onOpen}>Log in</Button>
             </ButtonGroup>
             </Flex>
-            <Modal heading={"Login"} isOpen={login.isOpen} onClose={login.onClose} button={
-                <Button colorScheme="teal">Login</Button>
-            }>
+            <Modal heading={"Login"} isOpen={login.isOpen} onClose={login.onClose} >
                 <LoginForm />
             </Modal>
-            <Modal heading={"Sign Up"} isOpen={register.isOpen} onClose={register.onClose} button={
-                <Button colorScheme="teal">Sign Up</Button>
-            }>
+            <Modal heading={"Sign Up"} isOpen={register.isOpen} onClose={register.onClose}>
                 <SignUpForm />
             </Modal>
         </>
