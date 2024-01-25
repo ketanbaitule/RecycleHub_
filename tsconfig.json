@@ -16,6 +16,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/Navbar.jsx", "src/components/Modal.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/Navbar.jsx", "src/components/Modal.jsx", "src/components/LoginForm.jsx", "src/components/SignUpForm.jsx"],
   "exclude": ["node_modules"]
 }
