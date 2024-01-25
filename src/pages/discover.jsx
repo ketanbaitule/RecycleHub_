@@ -1,10 +1,16 @@
 import PostCard from "@/components/PostCard";
-import { Flex, Heading, Highlight } from '@chakra-ui/react';
-import { BiHeading } from "react-icons/bi";
+import { Flex, Heading, Highlight, Button, Box, useDisclosure } from '@chakra-ui/react';
+import { BiAddToQueue, BiBox} from 'react-icons/bi';
+import Modal from "@/components/Modal";
+import AddPost from "../components/AddPost";
+
 // username, designation, content
 
-export default function Discover() {
 
+
+
+export default function Discover() {
+    const newPost = useDisclosure();
     let userData = [
         {
             "username": "Dr. J. B. Randhawa", 
@@ -45,6 +51,17 @@ export default function Discover() {
                 })
             }
         </Flex>
+
+        {/* adding the floating button for new PostCard */}
+        <Box className="fixed bottom-5 right-5">
+            <Button bg="teal.200" isRound="true" variant='ghost' leftIcon={<BiAddToQueue />}  size="lg" maxWidth={"inherit"} onClick={newPost.onOpen}/>
+        </Box>
+            
+        <Modal heading={"Create new post"} isOpen={newPost.isOpen} onClose={newPost.onClose} onOpen={newPost.onOpen} button={
+                <Button colorScheme="teal"></Button>
+            }>
+                <AddPost />
+        </Modal>
         </>        
     )
 }
