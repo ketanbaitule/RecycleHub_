@@ -70,7 +70,6 @@ export default function SignUpForm() {
                 </InputGroup>
             </Stack>
         </FormControl>
-=======
         <>
             { signUpStatus ? 
                 <Alert status='success' className="mb-3">
