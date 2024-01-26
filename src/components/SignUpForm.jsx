@@ -54,7 +54,7 @@ export default function SignUpForm() {
                     <InputLeftElement pointerEvents="none" >
                         <Icon as={BsKeyFill} />
                     </InputLeftElement>
-                    <Input type="text" placeholder="Password" />
+                    <Input type="password" placeholder="Password" />
                 </InputGroup>
             </Stack>
             <br />
@@ -64,10 +64,16 @@ export default function SignUpForm() {
                     <InputLeftElement pointerEvents="none" >
                         <Icon as={BsKeyFill} />
                     </InputLeftElement>
-                    <Input type="text" placeholder="Confirm password" />
+                    <Input type="password" placeholder="Confirm password" />
                     <br />
                 </InputGroup>
             </Stack>
+
+            <br />
+
+            <Button colorScheme='teal'>Sign Up</Button>
+
+            <br />
         </FormControl>
     )
 }
