@@ -8,6 +8,7 @@ import { Avatar, AvatarBadge, AvatarGroup } from '@chakra-ui/react'
 import { Container } from '@chakra-ui/react'
 import { Box } from "@chakra-ui/react";
 import { Text } from "@chakra-ui/react";
+import StackBar from "../components/StackBar";
 
 
 // function App() {
@@ -79,6 +80,7 @@ export default function ProfilePage() {
           Logout
         </Button>
       </VStack>
+      <StackBar />
     
   </ChakraProvider>
   );

@@ -3,6 +3,7 @@ import { Flex, Heading, Highlight, Button, Box, useDisclosure } from '@chakra-ui
 import { BiAddToQueue, BiBox} from 'react-icons/bi';
 import Modal from "@/components/Modal";
 import AddPost from "../components/AddPost";
+import StackBar from "../components/StackBar";
 
 // username, designation, content
 
@@ -59,6 +60,7 @@ export default function Discover() {
             }>
                 <AddPost />
         </Modal>
+        <StackBar />
         </>        
     )
 }

@@ -4,6 +4,7 @@ import Modal from "@/components/Modal";
 import LoginForm from "./LoginForm";
 import SignUpForm from "./SignUpForm";
 import Logo from '@/images/logo.png';
+import { account } from "@/config/appwrite";
 
 function Navbar(){
     const login = useDisclosure();
@@ -30,12 +31,14 @@ function Navbar(){
                 <Button colorScheme="teal" onClick={login.onOpen}>Log in</Button>
             </ButtonGroup>
             </Flex>
-            <Modal heading={"Login"} isOpen={login.isOpen} onClose={login.onClose} >
-                <LoginForm />
-            </Modal>
-            <Modal heading={"Sign Up"} isOpen={register.isOpen} onClose={register.onClose}>
-                <SignUpForm />
-            </Modal>
+                <>
+                    <Modal heading={"Login"} isOpen={login.isOpen} onClose={login.onClose} >
+                        <LoginForm onClose={login.onClose} />
+                    </Modal>
+                    <Modal heading={"Sign Up"} isOpen={register.isOpen} onClose={register.onClose}>
+                        <SignUpForm onClose={register.onClose} />
+                    </Modal> 
+                </>    
         </>
         
         
