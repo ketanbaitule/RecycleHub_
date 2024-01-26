@@ -5,29 +5,36 @@ import { supabase } from "@/model/supabase";
 
 export default function LoginForm() {
     return (
-        <FormControl>
-            <FormLabel>Email</FormLabel>
-            <Stack spacing={4}>
-                <InputGroup>
-                    <InputLeftElement pointerEvents="none" >
-                        <Icon as={MdEmail} />
-                    </InputLeftElement>
-                    <Input type="email" placeholder="whoami@xyz.com" />
-                </InputGroup>
-            </Stack>
-            <FormHelperText>We will never share your email.</FormHelperText>
+        <form>
+            <FormControl>
+                <FormLabel>Email</FormLabel>
+                <Stack spacing={4}>
+                    <InputGroup>
+                        <InputLeftElement pointerEvents="none" >
+                            <Icon as={MdEmail} />
+                        </InputLeftElement>
+                        <Input type="email" placeholder="whoami@xyz.com" />
+                    </InputGroup>
+                </Stack>
 
-            <br />
-                
-            <FormLabel>Password</FormLabel>
-            <Stack spacing={4}>
-                <InputGroup>
-                    <InputLeftElement pointerEvents="none" >
-                        <Icon as={BsKeyFill} />
-                    </InputLeftElement>
-                    <Input type="text" placeholder="Password" />
-                </InputGroup>
-            </Stack>
-        </FormControl>
+                <br />
+                    
+                <FormLabel>Password</FormLabel>
+                <Stack spacing={4}>
+                    <InputGroup>
+                        <InputLeftElement pointerEvents="none" >
+                            <Icon as={BsKeyFill} />
+                        </InputLeftElement>
+                        <Input type="password" placeholder="Password" />
+                    </InputGroup>
+                </Stack>
+
+                <br />
+
+                <Button colorScheme='teal'>Login</Button>
+
+                <br />
+            </FormControl>
+        </form>
     )
 }
