@@ -1,5 +1,6 @@
 import { Box, Button, ChakraProvider, CloseButton, FormControl, FormLabel, Input, VStack } from '@chakra-ui/react';
 import React from 'react';
+import StackBar from "../components/StackBar";
 
 export default function SettingsPage() {
   return (
@@ -26,6 +27,7 @@ export default function SettingsPage() {
         Save Changes
       </Button>
     </VStack>
+    <StackBar />
     </ChakraProvider>
   );
 }
