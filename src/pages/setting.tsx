@@ -1,9 +1,17 @@
+<<<<<<< Updated upstream
 import { Box, Button, ChakraProvider, FormControl, FormLabel, Input, VStack } from '@chakra-ui/react';
+=======
+import { Box, Button, ChakraProvider, CloseButton, FormControl, FormLabel, Input, VStack } from '@chakra-ui/react';
+>>>>>>> Stashed changes
 import React from 'react';
 
 export default function SettingsPage() {
   return (
     <ChakraProvider>
+<<<<<<< Updated upstream
+=======
+        <CloseButton />
+>>>>>>> Stashed changes
       <VStack spacing={4} align="start">
       <FormControl id="profileImage">
         <FormLabel>Profile Image</FormLabel>
